@@ -1,25 +1,270 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | MyFirstUP</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/RollABall.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">MyFirstUP</div>
-      </div>
-    </div>
-  </body>
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Yongming He's Home Page</title>
+
+	<!-- Meta Data -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="address=no"/>
+    <meta name="author" content="ArtTemplate" />
+    <meta name="description" content="vCard" />
+
+    <!-- Twitter data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ArtTemplates">
+    <meta name="twitter:title" content="vCard">
+    <meta name="twitter:description" content="vCard">
+    <meta name="twitter:image" content="assets/images/social.jpg">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="ArtTemplate" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="your url website" />
+    <meta property="og:image" content="assets/images/social.jpg" />
+    <meta property="og:description" content="vCard" />
+    <meta property="og:site_name" content="vCard" />
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/he_144x144.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/he_114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/he_72x72.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/he_57x57..png">
+	<link rel="shortcut icon" href="assets/images/favicons/he.png" type="image/png">
+
+    <!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="assets/demo/style-demo.css"/>
+	
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+	    <div class="preloader__wrap">
+		    <div class="circle-pulse">
+                <div class="circle-pulse__1"></div>
+                <div class="circle-pulse__2"></div>
+            </div>
+		    <div class="preloader__progress"><span></span></div>
+		</div>
+	</div>
+
+    <main class="main">
+	    <!-- Header Image -->
+		<div class="header-image">
+		    <div class="js-parallax" style="background-image: url(assets/img/thumb-1920-723738.jpg);"></div>
+		</div>
+		
+	    <div class="container gutter-top">
+		    <!-- Header -->
+		    <header class="header box">
+			    <div class="header__left">
+				    <div class="header__photo">
+					    <img class="header__photo-img" src="assets/img/hym.jpg" alt="Yongming He">
+					</div>
+					<div class="header__base-info">
+					    <h4 class="title titl--h4">Yongming He 何永明</h4>
+						<div class="status">Make your own decision</div>
+						<ul class="header__social">
+						    <li><a href="https://github.com/HymEric"><i class="font-icon icon-github1" title="github"></i></a></li>
+						    <li><a href="https://twitter.com/eric_hym"><i class="font-icon icon-twitter1" title="twitter"></i></a></li>
+						    <li><a href="https://www.facebook.com/hym.eric"><i class="font-icon icon-facebook1" title="facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/hym.eric"><i class="font-icon icon-instagram1" title="instagram"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/yongming-he-b565b7198/"><i class="font-icon icon-linkedin" title="linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header__right">
+				    <ul class="header__contact">
+					    <li><span class="overhead">Email</span>yongminghe_eric@qq.com</li>
+						<li><span class="overhead">Location</span>Beijing, China</li>
+					</ul>
+					<!-- <ul class="header__contact">
+					    <li><span class="overhead">Birthday</span>17 March, 1995</li>
+						<li><span class="overhead">Location</span>San-Francisco, USA</li>
+					</ul> -->
+				</div>
+			</header>
+			
+		    <div class="row sticky-parent">
+			    <!-- Sidebar nav -->
+                <!-- <aside class="col-12 col-md-12 col-lg-2">
+				    <div class="sidebar box sticky-column">
+	                    <ul class="nav">
+                            <li class="nav__item"><a class="active" href="index.html"><i class="icon-user"></i>About</a></li>
+							<li class="nav__item"><a href="resume.html"><i class="icon-file-text"></i>Resume</a></li>
+                            <li class="nav__item"><a href="works.html"><i class="icon-codesandbox"></i>Works</a></li>
+                            <li class="nav__item"><a href="blog.html"><i class="icon-book-open"></i>Blog</a></li>
+                            <li class="nav__item"><a href="contact.html"><i class="icon-book"></i>Contact</a></li>
+                        </ul>
+					</div>
+		        </aside> -->
+		        
+				<!-- Content -->
+		        <div class="col-12 col-md-12 col-lg-12">
+				    <div class="box box-content">
+					    <!-- About -->
+						<div class="pb-0 pb-sm-2">
+		                    <h1 class="title title--h1 first-title title__separate">About Me</h1>
+						    <p>I'm currently an Algorithm Engineer at Kuaishou Technology (Kwai Inc.). Previously, I was an algorithm intern at Alibaba.</p><p>I obtained my M.Eng. in Software Engineering from Zhejiang University (ZJU) in 2021 and received my B.S. in English plus Software Engineering from Wuhan Institute of Technology (WIT) in 2019.</p><p>I mainly focus on computer vision and multi-modal learning, including but not limited to representation learning, image/video reconstruction/enhancemnt/manipulation, deep generative models, etc.</p>
+					    </div>
+						
+						<!-- experience -->
+						<div class="pb-0 pb-sm-2">
+								<h1 class="title title--h1 first-title title__separate">Experience</h1>
+								<div class="timeline">
+									<!-- Item -->
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Kuaishou Technology</h5>
+										<span class="timeline__period">July, 2021 — Present</span>
+										<p class="timeline__description">Algorithm Engineer. Focus on ranking.</p>
+									</article>
+                                        
+									<!-- Item -->
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Alibaba</h5>
+										<span class="timeline__period">Sep, 2020 — May, 2021</span>
+										<p class="timeline__description">Algorithm Intern. Focus on super-resolution, object disassembling, multi-modal understanding, etc.</p>
+									</article>
+                                        
+									<!-- Item -->
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Juphoon</h5>
+										<span class="timeline__period">July, 2019 — Aug, 2019</span>
+										<p class="timeline__description">Algorithm Intern. Focus on matting.</p>
+									</article>
+								</div>
+							</div>
+						<!-- experience -->
+						<div class="pb-0 pb-sm-2">
+								<h1 class="title title--h1 first-title title__separate">Education</h1>
+								<div class="timeline">
+									<!-- Item -->
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Zhejiang University (ZJU), Zhejiang, China</h5>
+										<span class="timeline__period">Sep, 2019 — July, 2021</span>
+										<p class="timeline__description">Master in Software Engineering (SE), Computer Vision & Deep Learning, 3/180, Advisor: Prof. Mingli Song</p>
+									</article>
+                                        
+									<!-- Item -->
+									<article class="timeline__item">
+									    <h5 class="title title--h5 timeline__title">Wuhan Institute of Technology (WIT), Hubei, China</h5>
+										<span class="timeline__period">Sep, 2015 — July, 2019</span>
+										<p class="timeline__description">Bachelor in English Plus Software Engineering, GPA:3.93, 3/392</p>
+									</article>
+                                        
+								</div>
+							</div>
+
+						<!--  publication -->
+						<div class="pb-0 pb-sm-2">
+								<h1 class="title title--h1 first-title title__separate">Publication</h1>
+								<div class="timeline">
+									<!-- Item -->
+									<article class="timeline__item">
+									    <span class="timeline__description">Disassembling Object Representations without Labels, Neurocomputing<span class="timeline__period" style="float: right">2021</span></span>
+									</article>
+                                        
+									<!-- Item -->
+									<article class="timeline__item">
+									    <span class="timeline__description">One-sample Guided Object Representation Disassembling, NeurIPS<span class="timeline__period" style="float: right">2020</span></span>
+									</article>
+
+									<!-- Item -->
+									<article class="timeline__item">
+									    <span class="timeline__description">Gray Image Magnification Method for Amplifying Small Motions in the Video, Computer&Digital Engineerin<span class="timeline__period" style="float: right">2019</span></span>
+									</article>
+
+
+									<!-- Item -->
+									<article class="timeline__item">
+									    <span class="timeline__description">Research on the Precision Poverty Alleviation in Liulin River Village of Hong’an County, Pioneering with Science&Technology Monthly<span class="timeline__period" style="float: right">2018</span></span>
+									</article>
+
+									
+								</div>
+							</div>
+
+						<!-- Honors & Awards -->
+						<div class="pb-0 pb-sm-2">
+								<h1 class="title title--h1 first-title title__separate">Honors & Awards</h1>
+								<div class="timeline">
+									<!-- Item -->
+									<article class="timeline__item">
+										<span class="timeline__description">Outstanding Graduate of WIT<span class="timeline__period" style="float: right">2021</span></span>
+									</article>
+
+									<!-- Item -->
+									<article class="timeline__item">
+										<span class="timeline__description">Graduate National Scholarship(top 1%) <span class="timeline__period" style="float: right">2020</span></span>
+									</article>
+                                        
+									<!-- Item -->
+									<article class="timeline__item">
+										<span class="timeline__description">Video Enhancement and Super-Resolution Challenge of Alibaba-Youku in TianChi Competition: 48/1514 (top3.17%)<span class="timeline__period" style="float: right">2019</span></span>
+									</article>
+
+                                    <!-- Item -->
+									<article class="timeline__item">
+										<span class="timeline__description">Meritorious Winner of Mathematical Contest In Modeling (MCM) (International) <span class="timeline__period" style="float: right">2018</span></span>
+									</article>
+
+								</div>
+							</div>
+
+						<!-- skills -->
+						<div class="pb-0 pb-sm-2">
+								<h1 class="title title--h1 first-title title__separate">Skills</h1>
+								<div class="timeline">
+									<!-- Item -->
+									<article class="timeline__item">
+										<span class="timeline__description">English: TEM8 (Test for English Major), CET6 (College English Test)</span>
+									</article>
+
+									<!-- Item -->
+									<article class="timeline__item">
+										<span class="timeline__description">Engineering: Python, TensorFlow, PyTorch, Java, Linux, MySQL, C/C++, etc.</span>
+									</article>
+
+
+								</div>
+							</div>
+
+						</div>
+						
+						
+					</div>
+					
+					<!-- Footer -->
+					<footer class="footer">Copyright © 2022 Yongming He | Last update: Feb, 2022</footer>
+		        </div>
+			</div>
+		</div>	
+    </main>
+
+    <!-- SVG masks -->
+    <svg class="svg-defs">
+        <clipPath id="avatar-box">
+            <path d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z"/>
+        </clipPath>
+        <clipPath id="avatar-hexagon">
+             <path d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z"/>
+        </clipPath>		
+    </svg>
+	
+    <div class="back-to-top"></div>
+    
+	 
+	
+	<!-- JavaScripts -->
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/plugins.min.js"></script>
+    <script src="assets/js/common.js"></script>
+	
+	<script src="assets/demo/plugins-demo.js"></script>
+</body>
 </html>
